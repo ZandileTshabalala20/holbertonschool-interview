@@ -37,7 +37,7 @@ Write a script that reads stdin line by line and computes metrics:
 - status codes should be printed in ascending order
 
 ```sh
-alexa@ubuntu:~/0x06-log_parsing$ cat 0-generator.py
+
 #!/usr/bin/python3
 import random
 import sys
@@ -54,7 +54,7 @@ for i in range(10000):
     ))
     sys.stdout.flush()
 
-alexa@ubuntu:~/0x06-log_parsing$ ./0-generator.py | ./0-stats.py 
+~/0x06-log_parsing$ ./0-generator.py | ./0-stats.py 
 File size: 5213
 200: 2
 401: 1
@@ -97,5 +97,5 @@ Traceback (most recent call last):
 KeyboardInterrupt
     sleep(random.random())
 KeyboardInterrupt
-alexa@ubuntu:~/0x06-log_parsing$ 
+
 """
