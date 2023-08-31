@@ -15,11 +15,7 @@ You can assume all keys will be positive integers
 The first box boxes[0] is unlocked
 Return True if all boxes can be opened, else return False
 
-## Results :chart_with_upwards_trend:
 
-| Filename |
-| ------ |
-| [0-lockboxes.py](https://github.com/edward0rtiz/holbertonschool-interview/blob/master/0x00-lockboxes/0-lockboxes.py)|
 
 
 ## Additional info :construction:
@@ -28,9 +24,4 @@ Return True if all boxes can be opened, else return False
 - Python 3.6
 
 
-### Try It On Your Machine :computer:
-```bash
-git clone https://github.com/edward0rtiz/holbertonschool-interview
-cd 0x00-lockboxes
-./main_0.py
-```
+
